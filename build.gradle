@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.bot'
+version '1.0-SNAPSHOT'
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.pengrad:java-telegram-bot-api:6.5.0'
+}
